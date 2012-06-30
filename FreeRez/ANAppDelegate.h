@@ -7,9 +7,19 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ANDisplay.h"
 
-@interface ANAppDelegate : NSObject <NSApplicationDelegate>
+@interface ANAppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate, NSTableViewDelegate, NSTableViewDataSource> {
+    IBOutlet NSButton * setButton;
+    IBOutlet NSTableView * tableView;
+    
+    ANDisplay * currentDisplay;
+    NSArray * availableSettings;
+}
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSWindow * window;
+
+- (IBAction)setResolution:(id)sender;
+- (void)handleDisplayChanged;
 
 @end

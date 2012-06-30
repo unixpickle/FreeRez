@@ -13,6 +13,9 @@
 		FAB111DC159F5900006BBEA1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAB111DA159F5900006BBEA1 /* Credits.rtf */; };
 		FAB111DF159F5900006BBEA1 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB111DE159F5900006BBEA1 /* ANAppDelegate.m */; };
 		FAB111E2159F5900006BBEA1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB111E0159F5900006BBEA1 /* MainMenu.xib */; };
+		FAB111EA159F59D5006BBEA1 /* ANDisplaySetting.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB111E9159F59D5006BBEA1 /* ANDisplaySetting.m */; };
+		FAB111ED159F59E5006BBEA1 /* ANDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB111EC159F59E5006BBEA1 /* ANDisplay.m */; };
+		FAB111EF159F75E5006BBEA1 /* liberty.icns in Resources */ = {isa = PBXBuildFile; fileRef = FAB111EE159F75E5006BBEA1 /* liberty.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,19 @@
 		FAB111CE159F5900006BBEA1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		FAB111CF159F5900006BBEA1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FAB111D0159F5900006BBEA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FAB111D3159F5900006BBEA1 /* FreeRez-Info.plist */ = {isa = PBXFileReference; path = "FreeRez-Info.plist"; sourceTree = "<group>"; };
+		FAB111D3159F5900006BBEA1 /* FreeRez-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreeRez-Info.plist"; sourceTree = "<group>"; };
 		FAB111D5159F5900006BBEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAB111D7159F5900006BBEA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAB111D9159F5900006BBEA1 /* FreeRez-Prefix.pch */ = {isa = PBXFileReference; path = "FreeRez-Prefix.pch"; sourceTree = "<group>"; };
+		FAB111D9159F5900006BBEA1 /* FreeRez-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FreeRez-Prefix.pch"; sourceTree = "<group>"; };
 		FAB111DB159F5900006BBEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		FAB111DD159F5900006BBEA1 /* ANAppDelegate.h */ = {isa = PBXFileReference; path = ANAppDelegate.h; sourceTree = "<group>"; };
+		FAB111DD159F5900006BBEA1 /* ANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAppDelegate.h; sourceTree = "<group>"; };
 		FAB111DE159F5900006BBEA1 /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
 		FAB111E1159F5900006BBEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FAB111E8159F59D5006BBEA1 /* ANDisplaySetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDisplaySetting.h; sourceTree = "<group>"; };
+		FAB111E9159F59D5006BBEA1 /* ANDisplaySetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDisplaySetting.m; sourceTree = "<group>"; };
+		FAB111EB159F59E5006BBEA1 /* ANDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDisplay.h; sourceTree = "<group>"; };
+		FAB111EC159F59E5006BBEA1 /* ANDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDisplay.m; sourceTree = "<group>"; };
+		FAB111EE159F75E5006BBEA1 /* liberty.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = liberty.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,10 @@
 				FAB111DE159F5900006BBEA1 /* ANAppDelegate.m */,
 				FAB111E0159F5900006BBEA1 /* MainMenu.xib */,
 				FAB111D2159F5900006BBEA1 /* Supporting Files */,
+				FAB111E8159F59D5006BBEA1 /* ANDisplaySetting.h */,
+				FAB111E9159F59D5006BBEA1 /* ANDisplaySetting.m */,
+				FAB111EB159F59E5006BBEA1 /* ANDisplay.h */,
+				FAB111EC159F59E5006BBEA1 /* ANDisplay.m */,
 			);
 			path = FreeRez;
 			sourceTree = "<group>";
@@ -93,6 +105,7 @@
 		FAB111D2159F5900006BBEA1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAB111EE159F75E5006BBEA1 /* liberty.icns */,
 				FAB111D3159F5900006BBEA1 /* FreeRez-Info.plist */,
 				FAB111D4159F5900006BBEA1 /* InfoPlist.strings */,
 				FAB111D7159F5900006BBEA1 /* main.m */,
@@ -156,6 +169,7 @@
 				FAB111D6159F5900006BBEA1 /* InfoPlist.strings in Resources */,
 				FAB111DC159F5900006BBEA1 /* Credits.rtf in Resources */,
 				FAB111E2159F5900006BBEA1 /* MainMenu.xib in Resources */,
+				FAB111EF159F75E5006BBEA1 /* liberty.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +182,8 @@
 			files = (
 				FAB111D8159F5900006BBEA1 /* main.m in Sources */,
 				FAB111DF159F5900006BBEA1 /* ANAppDelegate.m in Sources */,
+				FAB111EA159F59D5006BBEA1 /* ANDisplaySetting.m in Sources */,
+				FAB111ED159F59E5006BBEA1 /* ANDisplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
