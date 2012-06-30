@@ -43,7 +43,6 @@ static void _DisplayReconfigurationCallback(CGDirectDisplayID display,
     for (uint32_t i = 0; i < displayCount; i++) {
         ANDisplay * display = [[ANDisplay alloc] initWithDisplayID:output[i]];
         [displays addObject:display];
-        [display availableSettings];
     }
     
     return [NSArray arrayWithArray:displays];
