@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB111CC159F5900006BBEA1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB111CB159F5900006BBEA1 /* Cocoa.framework */; };
+		FAB111D6159F5900006BBEA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB111D4159F5900006BBEA1 /* InfoPlist.strings */; };
+		FAB111D8159F5900006BBEA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB111D7159F5900006BBEA1 /* main.m */; };
+		FAB111DC159F5900006BBEA1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAB111DA159F5900006BBEA1 /* Credits.rtf */; };
+		FAB111DF159F5900006BBEA1 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB111DE159F5900006BBEA1 /* ANAppDelegate.m */; };
+		FAB111E2159F5900006BBEA1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB111E0159F5900006BBEA1 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAB111C7159F5900006BBEA1 /* FreeRez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeRez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB111CB159F5900006BBEA1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FAB111CE159F5900006BBEA1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FAB111CF159F5900006BBEA1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAB111D0159F5900006BBEA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAB111D3159F5900006BBEA1 /* FreeRez-Info.plist */ = {isa = PBXFileReference; path = "FreeRez-Info.plist"; sourceTree = "<group>"; };
+		FAB111D5159F5900006BBEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAB111D7159F5900006BBEA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB111D9159F5900006BBEA1 /* FreeRez-Prefix.pch */ = {isa = PBXFileReference; path = "FreeRez-Prefix.pch"; sourceTree = "<group>"; };
+		FAB111DB159F5900006BBEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FAB111DD159F5900006BBEA1 /* ANAppDelegate.h */ = {isa = PBXFileReference; path = ANAppDelegate.h; sourceTree = "<group>"; };
+		FAB111DE159F5900006BBEA1 /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
+		FAB111E1159F5900006BBEA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB111C4159F5900006BBEA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB111CC159F5900006BBEA1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB111BC159F5900006BBEA1 = {
+			isa = PBXGroup;
+			children = (
+				FAB111D1159F5900006BBEA1 /* FreeRez */,
+				FAB111CA159F5900006BBEA1 /* Frameworks */,
+				FAB111C8159F5900006BBEA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB111C8159F5900006BBEA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB111C7159F5900006BBEA1 /* FreeRez.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB111CA159F5900006BBEA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB111CB159F5900006BBEA1 /* Cocoa.framework */,
+				FAB111CD159F5900006BBEA1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAB111CD159F5900006BBEA1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB111CE159F5900006BBEA1 /* AppKit.framework */,
+				FAB111CF159F5900006BBEA1 /* CoreData.framework */,
+				FAB111D0159F5900006BBEA1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FAB111D1159F5900006BBEA1 /* FreeRez */ = {
+			isa = PBXGroup;
+			children = (
+				FAB111DD159F5900006BBEA1 /* ANAppDelegate.h */,
+				FAB111DE159F5900006BBEA1 /* ANAppDelegate.m */,
+				FAB111E0159F5900006BBEA1 /* MainMenu.xib */,
+				FAB111D2159F5900006BBEA1 /* Supporting Files */,
+			);
+			path = FreeRez;
+			sourceTree = "<group>";
+		};
+		FAB111D2159F5900006BBEA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB111D3159F5900006BBEA1 /* FreeRez-Info.plist */,
+				FAB111D4159F5900006BBEA1 /* InfoPlist.strings */,
+				FAB111D7159F5900006BBEA1 /* main.m */,
+				FAB111D9159F5900006BBEA1 /* FreeRez-Prefix.pch */,
+				FAB111DA159F5900006BBEA1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB111C6159F5900006BBEA1 /* FreeRez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB111E5159F5900006BBEA1 /* Build configuration list for PBXNativeTarget "FreeRez" */;
+			buildPhases = (
+				FAB111C3159F5900006BBEA1 /* Sources */,
+				FAB111C4159F5900006BBEA1 /* Frameworks */,
+				FAB111C5159F5900006BBEA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeRez;
+			productName = FreeRez;
+			productReference = FAB111C7159F5900006BBEA1 /* FreeRez.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB111BE159F5900006BBEA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AN;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FAB111C1159F5900006BBEA1 /* Build configuration list for PBXProject "FreeRez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAB111BC159F5900006BBEA1;
+			productRefGroup = FAB111C8159F5900006BBEA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB111C6159F5900006BBEA1 /* FreeRez */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB111C5159F5900006BBEA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB111D6159F5900006BBEA1 /* InfoPlist.strings in Resources */,
+				FAB111DC159F5900006BBEA1 /* Credits.rtf in Resources */,
+				FAB111E2159F5900006BBEA1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB111C3159F5900006BBEA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB111D8159F5900006BBEA1 /* main.m in Sources */,
+				FAB111DF159F5900006BBEA1 /* ANAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB111D4159F5900006BBEA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB111D5159F5900006BBEA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAB111DA159F5900006BBEA1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB111DB159F5900006BBEA1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FAB111E0159F5900006BBEA1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB111E1159F5900006BBEA1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB111E3159F5900006BBEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAB111E4159F5900006BBEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAB111E6159F5900006BBEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreeRez/FreeRez-Prefix.pch";
+				INFOPLIST_FILE = "FreeRez/FreeRez-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAB111E7159F5900006BBEA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreeRez/FreeRez-Prefix.pch";
+				INFOPLIST_FILE = "FreeRez/FreeRez-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB111C1159F5900006BBEA1 /* Build configuration list for PBXProject "FreeRez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB111E3159F5900006BBEA1 /* Debug */,
+				FAB111E4159F5900006BBEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB111E5159F5900006BBEA1 /* Build configuration list for PBXNativeTarget "FreeRez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB111E6159F5900006BBEA1 /* Debug */,
+				FAB111E7159F5900006BBEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB111BE159F5900006BBEA1 /* Project object */;
+}
